@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #000;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 20px;
+}
+
+h2,
+p,
+label {
+  color: #fcfcfc;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 10px 0px 0px 0px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flexbox;
+  width: 650px;
+  background-color: #1d1e22;
+  padding: 25px;
+  flex-direction: column;
+  border-radius: 5px;
+  border: solid 1px #fff;
+  font-size: 15px;
+}
+
+.wrapper input {
+  width: 100%;
+}
+
+#listaCompras div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#listaCompras h2 {
+  flex-basis: 100%;
+}
+
+#listaCompras div input {
+  width: 10px;
+  margin-right: 15px;
+  flex-basis: 10%;
+}
+
+#listaCompras div label {
+  flex-basis: 80%;
+}

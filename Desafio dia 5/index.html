@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio dia 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>#7DaysOfCode - Dia 5</h2>
+    <section class="section">
+      <div class="wrapper">
+        <p>Insira o nome do item:</p>
+        <input type="text" id="itemName" autocomplete="off" />
+        <p>Quantidade:</p>
+        <input type="text" id="itemQnt" autocomplete="off" />
+        <p>Insira a categoria do item:</p>
+        <input type="text" id="itemSector" autocomplete="off" />
+        <button id="btnAdicionar" onclick="handleAdd()">Adicionar</button>
+      </div>
+      <h2>Lista de Compras</h2>
+      <div class="wrapper" id="listaCompras">
+        <p>Sua lista está vazia🔴<br />Adicione itens para começar🔵</p>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
