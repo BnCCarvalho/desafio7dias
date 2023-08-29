@@ -1,0 +1,171 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  /*   background-image: url("https://img.freepik.com/vetores-gratis/fundo-preto-com-foco-de-luz_1017-27230.jpg?w=740"); */
+  background-color: #ab5bc5;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h3 {
+  color: #e3ca4d;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 105px;
+  min-height: 400px;
+}
+
+.form-box {
+  margin-top: 75px;
+  height: auto;
+  background: #1a2226;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.row {
+  margin-top: 1px;
+}
+
+.form-user {
+  height: 100px;
+  font-size: 80px;
+  line-height: 100px;
+  background: -webkit-linear-gradient(#703faa, #e3ca4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-title {
+  margin-top: 5px;
+  text-align: top;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #ecf0f5;
+}
+
+.login-form {
+  margin-top: 25px;
+  text-align: left;
+}
+
+input[type="text"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #703faa;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: #ecf0f5;
+}
+
+input[type="password"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #703faa;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  color: #ecf0f5;
+}
+
+.form-group {
+  margin-bottom: 40px;
+  outline: 0px;
+}
+
+.form-control:focus {
+  transition-duration: 0.5s;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1.5px solid #e3ca4d;
+  outline: 0;
+  background-color: #1a2226;
+  color: #ecf0f5;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.form-control-label {
+  font-size: 24px;
+  color: #6c6c6c;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+  border-color: #703faa;
+  color: #703faa;
+  border-radius: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+  background-color: #703faa;
+  border-color: #703faa;
+  right: 0px;
+}
+
+.form-btm {
+  float: left;
+}
+
+.form-button {
+  padding-right: 0px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.form-text {
+  text-align: left;
+  padding-left: 0px;
+  color: #a2a4a4;
+}
+
+.formbttm {
+  padding: 0px;
+}
