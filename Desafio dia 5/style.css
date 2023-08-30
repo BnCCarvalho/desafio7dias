@@ -21,7 +21,7 @@ p {
   margin: 10px 0px 0px 0px;
 }
 
-button {
+#btnAdicionar {
   margin-top: 10px;
 }
 
@@ -63,4 +63,13 @@ button {
 
 #listaCompras div label {
   flex-basis: 80%;
+}
+
+.setor {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemDiv {
+  align-items: center;
 }
