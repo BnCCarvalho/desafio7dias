@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+:root {
+  --fonte-principal: "Press Start 2P", sans-serif;
+  --cor-bg: #952323;
+  --cor-primaria: #f2e8c6;
+  --cor-secundaria: #dad4b5;
+  --cor-terciaria: #a73121;
+  --cor-quartenaria: #7421a7;
+  --cor-quintenaria: #b2fa0b;
+  --cor-escura: #231717b4;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: var(--fonte-principal);
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, var(--cor-bg), var(--cor-secundaria));
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  color: var(--cor-primaria);
+  gap: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 1.3rem;
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 14px;
+  outline: none;
+}
+
+.calculator-grid > button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.span-one {
+  background-color: var(--cor-primaria);
+}
+
+.span-two {
+  grid-column: span 2;
+  color: var(--cor-quartenaria);
+  background-color: var(--cor-quintenaria);
+}
+
+.span-three {
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-quintenaria);
+}
+
+.span-four {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: var(--cor-escura);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: 2px solid var(--cor-terciaria);
+  border-radius: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-self: center;
+  padding: 1.5rem;
+  background: var(--cor-escura);
+  color: var(--cor-primaria);
+}
